@@ -49,7 +49,7 @@ This repository contains the following information
 
     This is the PDF of the final presentation.
     
-    
+  
 7.	FinalPaper.pdf\par
 
     This is the final paper of this project. 
@@ -58,9 +58,6 @@ This repository contains the following information
 
     This is the shapefile for the roads for New Delhi
 
-9.  WATER_BODY.shp \par
-
-    This is the shapefile for the Yamuna river
 
 10. IND_admn2.shp\par
 
