@@ -1,0 +1,263 @@
+\documentclass[xcolor=dvipsnames]{beamer}
+\usepackage{pgfpages}
+\usecolortheme[named=NavyBlue]{structure}
+\usefonttheme{serif}
+\usepackage{graphicx}% http://ctan.org/pkg/graphicx
+\usepackage{booktabs}
+\setbeameroption{hide notes}
+\usepackage{adjustbox}
+\usepackage{color, colortbl}
+\usepackage{adjustbox}
+\usepackage{media9}
+\usepackage{multimedia}
+
+% \includeonlyframes{c1,c2,c3,c4,c5,c6,c7,c8,c9}
+\usepackage{dcolumn}
+\newcolumntype{.}{D{.}{.}{-1}}
+\newcolumntype{d}[1]{D{.}{.}{#1}}
+% \usepackage{wcolor}
+\usepackage{color}
+% \usepackage[usenames]{color}
+\usepackage{wasysym}
+\usepackage{graphicx} % psfrag,epsf}
+% \usepackage{epsfig}
+% math serif font
+\usepackage{mathptmx}
+\usepackage{amsmath}
+
+\usepackage{adjustbox}
+% \usepackage{amsfonts}
+% \usepackage{amsmath}
+% === to strikeout text ===
+
+\usetheme{Madrid} 
+% Enable appendix frames not to be in displayed frame denominator
+\newcounter{mylastframe}
+
+\title{Govt 696 Intro to Programming}
+\author{Sasa Tang\\
+Ph.D. Student}
+% \thanks{With special thanks to .}}
+\institute []{American University\\
+Department of Government\\
+School of Public Affairs}
+\date{\today}
+\begin{document}
+
+
+\begin{frame}
+\title{Mapping of Sexual Harassment Incidents in Delhi, India}
+  \titlepage
+\end{frame}
+
+
+
+\title{Govt 696}
+
+\section{Introduction}
+
+\frame{
+\setcounter{mylastframe}{\value{framenumber}}
+\frametitle{Motivation}
+\framesubtitle{}
+\begin{itemize}
+\item Spatial relationship of harassment\\
+\begin{itemize}
+\item Puzzle (1) : Why is there variation in reported incidents of sexual harassment in different public spaces? 
+\end{itemize}
+\vspace {2mm}
+\pause
+\item Harassment types\\
+\begin{itemize}
+\item Puzzle (2) : Are there any patterns of variations in types of sexual harassment in public spaces? \\
+\end{itemize}
+\end{itemize}
+}
+
+
+\frame{
+\setcounter{mylastframe}{\value{framenumber}}
+\frametitle{Presentation Layout}
+\framesubtitle{}
+\begin{itemize}
+\item Literature review\\
+\item Research questions\\
+\item Data and methods\\
+\item Future direction\\
+\end{itemize}
+}
+
+
+
+\frame{
+\setcounter{mylastframe}{\value{framenumber}}
+\frametitle{Literature}
+\framesubtitle{}
+\begin{itemize}
+\item Feminist Literature on Sexual Harassment\\
+\vspace {1mm}
+\begin{itemize}
+\item Sexual harassment as form of communication (Kissling and Kramarea 1991), micro-aggression (Davis 1994), socially constructed behaviors (Ussher 1997) to perpetuate hegemonic gendered power relations
+\end{itemize}
+\end{itemize}
+\pause
+
+
+\begin{itemize}
+\item Spatial Politics\\
+\begin{itemize}
+\item  Constructing and restructuring frames of territoriality (Sack 1986) and boundaries (Dochartaigh and Bosi 2010)\\
+\end{itemize}
+\end{itemize}
+\begin{itemize}
+\pause
+
+
+\item Crime and Space\\
+\vspace {1mm}
+\begin{itemize}
+\item Crime pattern theory, relation between "built environment" (urban planning, buildings, vegetation, lighting etc...) on crimes and crime types (Jacobs 1961, Perkins et al. 1993, Sherman, Gartin, and Buerger 1989.)
+\end{itemize}
+\end{itemize}
+}
+
+
+\frame{
+\frametitle{Research Question}
+\framesubtitle{}
+
+\vspace {2mm}
+
+Research Questions:  \\
+
+\vspace {3mm}
+
+Based on Safecity, an online platform that uses crowdsourced data to collect geospatial locations of sexual harassment incidents in public spaces, why is there variation in occurrence? Is socially constructed gender power dynamics flexible in different spaces? What aspects of public spaces promote more sexual harassment in one place and why are these aspects absent in other places?\\
+\vspace {3mm}
+In the physical measurements of space, is there a relationship between the type of space and the type of sexual harassment more prevalence in that space? Does distance, layout of space, traffic, transient bodies, or other physical factors influence type of sexual harassment prevalent in those spaces? \\
+
+}
+
+\frame{
+\setcounter{mylastframe}{\value{framenumber}}
+\frametitle{Data and Method}
+\framesubtitle{}
+\begin{itemize}
+\item Safecity\\
+\begin{itemize}
+\item Point data variables\\
+\begin{itemize}
+\item Non-Interative: Indecent Exposure (329), Staring (1,369), Taking Picture (543) \\
+\item Direct Verbal: Catcall (1,449), Comment (2,396) , Sexual Invite (495)\\
+\item Direct Physical: Sexual Assault (158), Touch (1,492)\\
+\item Stalking (488)\\
+\item Other (529)\\
+\end{itemize}
+\end{itemize}
+\item DIVA-GIS\\
+\begin{itemize}
+\item Polylines and polygons: India administrative boundaries, roads, rails\\
+\end{itemize}
+\item MapCruzin\\
+\begin{itemize}
+\item Polylines and polygons: Delhi roads, buildings, waterways\\
+\end{itemize}
+\end{itemize}
+}
+
+\frame{
+\setcounter{mylastframe}{\value{framenumber}}
+\frametitle{Map 1. All Incidents in India}
+\framesubtitle{}
+\begin{figure}[H]
+\includegraphics[width=7cm, height=7cm]{allcatagories}
+  \end{figure}
+}
+
+\frame{
+\setcounter{mylastframe}{\value{framenumber}}
+\frametitle{Map 2. Delhi Incidents by Type of Sexual Harassment}
+\framesubtitle{}
+\begin{figure}[H]
+\includegraphics[width=1\textwidth, height=8cm]{allDelhi}
+  \end{figure}
+}
+
+\frame{
+\setcounter{mylastframe}{\value{framenumber}}
+\frametitle{Map 3. Kernel Density Comparison}
+\framesubtitle{}
+\begin{figure}[H]
+\includegraphics[width=1\textwidth, height=8cm]{kdmaps}
+  \end{figure}
+}
+
+
+
+
+\frame{
+\setcounter{mylastframe}{\value{framenumber}}
+\frametitle{Moving Forward...}
+\framesubtitle{}
+
+\begin{itemize}
+\item Problems to solve: data types in R\\
+\begin{itemize}
+\item SpatialPoints, SpatialPointsDataFrame\\
+\item SpatialLines, SpatialLinesDataFrame\\
+\item SpatiaPolygon, SpatialPolygonDataFrame\\
+\end{itemize}
+\item Geographically Weighted Regression\\
+\item Mental Mapping (Wong et al. 2012)\\
+\end{itemize}
+
+
+}
+
+
+\frame{
+\setcounter{mylastframe}{\value{framenumber}}
+\frametitle{Thank You}
+\framesubtitle{}
+
+Question, comments, and suggestions welcomed.\\
+sasa.tang@student.american.edu
+
+}
+
+\frame{
+\setcounter{mylastframe}{\value{framenumber}}
+\frametitle{Work Cited}
+\framesubtitle{}
+\tiny
+Davis, D. (1994). The harm that has no name: Street harassment, embodiment, and African American women. \textit{UCLA Women's LJ}, 4, 133.
+Dochartaigh, N., and Bosi, L. (2010). Territoriality and mobilization: The civil rights campaign in Northern Ireland. \textit{Mobilization: An International Quarterly,} 15(4), 405\textendash 424.\\
+Jacobs, J. (1961). The Death and Life of Great American Cities. New York, NY: Random House\\
+Kissling, E.A, and Kramarae, C. (1991). Stranger Compliments: The Interpretation of Street Remarks. \textit {Women's Studies in Communication,} 14(1), 75-93.\\
+Kuo, and Sullivan, W. C. (2001). Environment and Crime in the Inner City: Does Vegetation Reduce Crime?  \textit{Environment and Behavior}, 33(3), 343-367. \\
+Perkins, D. D., Wandersman, A., Rich, R. C., and Taylor, R. B. (1993). The physical environment of street crime: Defensible space, territoriality and incivilities. \textit{Journal of Environmental Psychology}, 13(1), 29-49.\\
+Sack, R. (1986). \textit {Human Territoriality: Its Theory and History.}  New York: Cambridge University Press. \\
+Sherman, L. W., Gartin, P. R., and Buerger, M. E. (1989). Hot Spots of Predatory Crime: Routine Activities and the Criminology of Place. \textit{Criminology}, 27, 27?56.\\
+Ussher, J. (1997).  \textit {Fantasies of Femininity: Reframing the Boundaries of Sex.} London: Penguin. \\
+Wong, C., Bowers, J., Williams, T., and Drake, K. (2012). Bringing the Person Back In: Boundaries, Perceptions, and the Measurement of Racial Context.
+}
+
+\frame{
+\setcounter{mylastframe}{\value{framenumber}}
+\frametitle{Appendix I.  ArcGIS Hot Spot of NonInterative}
+\framesubtitle{}
+\begin{figure}[H]
+\includegraphics[width=1\textwidth]{NonInterativeHotSpot}
+  \end{figure}
+}
+\frame{
+\setcounter{mylastframe}{\value{framenumber}}
+\frametitle{Appendix II. ArcGIS Hot Spot of Direct Verbal}
+\framesubtitle{}
+\begin{figure}[H]
+\includegraphics[width=1\textwidth]{DirectVerbalHotSpot}
+  \end{figure}
+}
+
+
+\end{document}
