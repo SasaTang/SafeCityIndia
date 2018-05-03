@@ -48,7 +48,7 @@ between harasser and victim. For laws governing sexual harassment
 violations in public spaces, there are four sections under the Indian Penal Code 
 from 1860 that address sexual harassment:\par
 1. Section 294: law addressing obscene acts or songs "in or near any public place"\par
-2. Section 326: acid attacks that lead to physical damange\par
+2. Section 326: acid attacks that lead to physical damange.\par
 3. Section 354: laws that address crimes that "outrage her modesty" including: physical contact of sexual nature, sexually colored remarks, showing pornography 
 against someone's will, voyeurism, stalking, and sexual assault. \par
 4. Section 509: law that punishes "word, gesture or act intended to insult the 
@@ -412,7 +412,7 @@ of certain types of sexual harassment is more wide spreading and covers more are
 than others. Though, it is also interesting to note that there is not a lot of 
 difference between _Physical_ and _Direct Verbal_ in their kernel density maps.\par 
 
-# Times series regression
+# Times Series Regression
 In order to explore how different types of sexual harassment interact with each
 other, and to answer the questions of the role of logic of appropriateness among
 different spaces, I will conduct a spatial time series regression analysis. First,
@@ -435,7 +435,7 @@ in? Are these places shopping malls, tourist destinations, industrial zones,
 business districts, parks, or slum markets? How does the type of space affect 
 the variation of sexual harassment? And do how these places are used also affect
 the variation of sexual harassment? As shown from the criminology literature, 
-time also plays a role on the occurance of crime. Therefore, how are these spaces 
+time also plays a role on the occurrence of crime. Therefore, how are these spaces 
 occupied and used throughout the course of the day? Do these compositions change 
 and therefore change the variation of type of sexual harassment? To answer these
 questions, I would need more information on different spaces. \par
@@ -449,7 +449,7 @@ Moving forward, there are two main directions this project would like to explore
 First, this research question would like to ask, is there a relationship between
 the build enviornment of a place and sexual harassment? Previous research 
 in the field of criminology have looked at build factors such as building heights
-[@newman_defensible_1972; @engert_spatial_1980; @rubenstein_link_19811], vegetation [@kuo_environment_2001; @michael_effects_1994; @shaffer_perceptions_1985], lighting [@painter_influence_nodate; @farrington_improved_2002], open spaces [@taylor_crime_2002] and their relationship to crime rates and types of crime. My research would like to add to this field by looking at the different 
+[@newman_defensible_1972; @rengert_spatial_1980; @rubenstein_link_1981], vegetation [@kuo_environment_2001; @michael_effects_1994; @shaffer_perceptions_1985], lighting [@painter_influence_nodate; @farrington_improved_2002], open spaces [@taylor_crime_2002] and their relationship to crime rates and types of crime. My research would like to add to this field by looking at the different 
 behaviors of sexual harassment and its build enviornment. The lack vigilance, 
 as @jacobs_death_2011 points out can be a driver of crime. Taking this point further
 to sexual harassment, where this umbrella crime can emcompass close vicinity 

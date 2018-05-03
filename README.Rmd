@@ -54,7 +54,8 @@ This repository contains the following information:\par
 
     This is the final paper of this project. 
 
-8. [FinalPaper.Rmd](https://github.com/SasaTang/SafeCityIndia/blob/master/FinalPaper.Rmd) \par
+8. [FinalPaper.Rmd](https://github.com/SasaTang/SafeCityIndia/blob/master/FinalPaper.Rmd)\par
+
      This is the R Markdown for the final paper.
 
 8.  [delhi_highway.shp](https://github.com/SasaTang/SafeCityIndia/blob/master/delhi_highway.shp)\par
