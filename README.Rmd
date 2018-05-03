@@ -21,45 +21,45 @@ physical, stalking, and others. \par
 This repository contains the following information 
 
 
-1. Safecity.Rproj\par
+1. [Safecity.Rproj] (https://github.com/SasaTang/SafeCityIndia/blob/master/Safecity.Rproj)\par
 
     This is an R Project file that contains the R Markdown for the paper and all the below code.\par
     
     
-2.	MapClean.R \par
+2.	[MapClean.R] ()\par
 
     This is the R code for the creation of the maps in the final paper.
     
-3.	Datacleanup.R\par
+3.	[Datacleanup.R] ()\par
 
     This is the code to clean up the data, transforming the original csv into useable data for this paper. For the original csv, please contact [Safecity](http://safecity.in/contact-us/). \par
     
     
-4.	BasicStat.R\par
+4.	[BasicStat.R]\par
 
     This is the code that is used to examine the data, to see descriptive
     
     
-5.	Tang_Presentation.tex\par
+5.	[Tang_Presentation.tex]\par
 
     This the LaTex document of the final presentation.
     
     
-6.	Tang_Presentation.pdf\par
+6.	[Tang_Presentation.pdf]\par
 
     This is the PDF of the final presentation.
     
   
-7.	FinalPaper.pdf\par
+7.	[FinalPaper.pdf]\par
 
     This is the final paper of this project. 
 
-8.  delhi_highway.shp \par
+8.  [delhi_highway.shp] \par
 
     This is the shapefile for the roads for New Delhi
 
 
-10. IND_admn2.shp\par
+10. [IND_admn2.shp]\par
 
     This is the shapefile for the districts in India
 
