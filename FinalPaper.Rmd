@@ -47,11 +47,11 @@ in the work place where the harasser is known and there is a structured relation
 between harasser and victim. For laws governing sexual harassment 
 violations in public spaces, there are four sections under the Indian Penal Code 
 from 1860 that address sexual harassment:\par
-1. Section 294: law addressing obscene acts or songs ''in or near any public place"\par
+1. Section 294: law addressing obscene acts or songs "in or near any public place"\par
 2. Section 326: acid attacks that lead to physical damange\par
-3. Section 354: laws that address crimes that ''outrage her modesty" including: physical contact of sexual nature, sexually colored remarks, showing pornography 
+3. Section 354: laws that address crimes that "outrage her modesty" including: physical contact of sexual nature, sexually colored remarks, showing pornography 
 against someone's will, voyeurism, stalking, and sexual assault. \par
-4. Section 509: law that punishes ''word, gesture or act intended to insult the 
+4. Section 509: law that punishes "word, gesture or act intended to insult the 
 modesty of a woman," that intrudes upon the privacy of the person.\par 
 In both categories, there is not a strong enforcement of these law, coupled with 
 the social stigma against reporting sexual harassment, and psychological barriers of self blame, all contribute to the continual prevelence of sexual harassment in both 
@@ -72,11 +72,11 @@ that a spatial analysis on public space using this Safecity data has been carrie
 # Literature
 ## Sexual Harassment
 There are three main frameworks to understand sexual harassment:  social-structural, social control, and sociocultural. Sexual harassment in the social-structural 
-framework regards this behavior as “markers of passage” for women because it 
+framework regards this behavior as "markers of passage” for women because it 
 communicates the hegemonic normative rules of power that negotiates behaviors 
 of conduct between genders [@kissling_street_1991]. It is used as a tool 
 that demonstrates unequal power relations between males and females, 
-“micro-aggressions” that intrudes into personal space without consent [@davis_planet_2004].  Furthermore, @kissling_stranger_1991, and @wise_georgie_1987 
+"micro-aggressions” that intrudes into personal space without consent [@davis_planet_2004].  Furthermore, @kissling_stranger_1991, and @wise_georgie_1987 
 regard sexual harassment on the street as a language of “sexual terrorism” and 
 argue that one reason that sexual harassment is performed in public spaces is to 
 oppress women through fear. Sexual harassment in the social control framework 
@@ -145,7 +145,7 @@ formed in Decemeber 2012. The data collected are anonymous
 and are mapped out to provide more awareness to the issue of sexual harassment
 in public spaces, as well as to inform intervention methods. This paper uses
 R to tidy and wrange the data and ArcGIS to map incidents. \par
-In November 2017, Safecity then launched an app for iOS and Android enabled platforms 
+In November 2017, Safecity launched an app for iOS and Android enabled platforms 
 in hopes that the use of GPS data sourced from smartphones can increase the dataset’s 
 spatial accuracy as well as accessibility. The most recent observation for this paper 
 ends at Feburary 22, 2018 so the effects of an app based platform is still undetermined.
@@ -442,12 +442,14 @@ questions, I would need more information on different spaces. \par
 
 
 # Conclusion
-
+I will spend more time looking at different ways to analyze spatial data and work 
+on the time series regression analysis. I hope this will bring to light more 
+understanding about how different types of sexual harassment interact with each other. \par
 Moving forward, there are two main directions this project would like to explore.
 First, this research question would like to ask, is there a relationship between
 the build enviornment of a place and sexual harassment? Previous research 
 in the field of criminology have looked at build factors such as building heights
-[@newman_defensible_1972;  @engert_spatial_1980; @rubenstein_link_19811), vegetation [@kuo_environment_2001;  @michael_effects_1994; @shaffer_perceptions_1985), lighting [@painter_influence_nodate; @farrington_improved_2002], open spaces [@taylor_crime_2002] and their relationship to crime rates and types of crime. My research would like to add to this field by looking at the different 
+[@newman_defensible_1972; @engert_spatial_1980; @rubenstein_link_19811], vegetation [@kuo_environment_2001; @michael_effects_1994; @shaffer_perceptions_1985], lighting [@painter_influence_nodate; @farrington_improved_2002], open spaces [@taylor_crime_2002] and their relationship to crime rates and types of crime. My research would like to add to this field by looking at the different 
 behaviors of sexual harassment and its build enviornment. The lack vigilance, 
 as @jacobs_death_2011 points out can be a driver of crime. Taking this point further
 to sexual harassment, where this umbrella crime can emcompass close vicinity 
@@ -461,7 +463,7 @@ To tackle these questions, I would need data on the build enviornment. \par
 The second direction this project leads to is through on the ground quantitative 
 data on people's perceptions. This paper has shown that the way space used by 
 people may affect certain behaviors. Therefore, usage of space is influenced by 
-perception of space and safety. Therefore it would be beneficial to do on the 
+perception of space and safety. This is why it would be beneficial to do on the 
 ground mapping projects to better understand how people think about space, rights
 to space, ownership of space and of bodies, and what they would like to see change.\par
 
