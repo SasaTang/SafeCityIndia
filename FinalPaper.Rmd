@@ -413,7 +413,11 @@ than others. Though, it is also interesting to note that there is not a lot of
 difference between _Physical_ and _Direct Verbal_ in their kernel density maps.\par 
 
 # Times series regression
-In order to explore 
+In order to explore how different types of sexual harassment interact with each
+other, and to answer the questions of the role of logic of appropriateness among
+different spaces, I will conduct a spatial time series regression analysis. First,
+I will create quadrants to overlay on top of the areas, and then join the incidents
+into the polygon quadrants to get a count data for each quadrant. 
 
 # Discussion
 While these maps do demonstrate that there exists some sort of spatial relation
