@@ -21,16 +21,16 @@ physical, stalking, and others. \par
 This repository contains the following information:\par 
 
 
-1. [Safecity.Rproj] (https://github.com/SasaTang/SafeCityIndia/blob/master/Safecity.Rproj)\par
+1. [Safecity.Rproj](https://github.com/SasaTang/SafeCityIndia/blob/master/Safecity.Rproj)\par
 
     This is an R Project file that contains the R Markdown for the paper and all the below code.\par
     
     
-2.	[MapClean.R] (https://github.com/SasaTang/SafeCityIndia/blob/master/mapClean.R)\par
+2.	[MapClean.R](https://github.com/SasaTang/SafeCityIndia/blob/master/mapClean.R)\par
 
     This is the R code for the creation of the maps in the final paper.
     
-3.	[Datacleanup.R] (https://github.com/SasaTang/SafeCityIndia/blob/master/datacleanup.R)\par
+3.	[Datacleanup.R](https://github.com/SasaTang/SafeCityIndia/blob/master/datacleanup.R)\par
 
     This is the code to clean up the data, transforming the original csv into useable data for this paper. For the original csv, please contact [Safecity](http://safecity.in/contact-us/). \par
     
@@ -54,12 +54,15 @@ This repository contains the following information:\par
 
     This is the final paper of this project. 
 
+8. [FinalPaper.Rmd](https://github.com/SasaTang/SafeCityIndia/blob/master/FinalPaper.Rmd) \par
+     This is the R Markdown for the final paper.
+
 8.  [delhi_highway.shp](https://github.com/SasaTang/SafeCityIndia/blob/master/delhi_highway.shp)\par
 
     This is the shapefile for the roads for New Delhi
 
 
-10. [IND_admn2.shp](https://github.com/SasaTang/SafeCityIndia/blob/master/IND_adm2.shp)\par
+9. [IND_admn2.shp](https://github.com/SasaTang/SafeCityIndia/blob/master/IND_adm2.shp)\par
 
     This is the shapefile for the districts in India
 

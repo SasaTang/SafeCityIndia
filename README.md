@@ -2,15 +2,15 @@ This paper will use geospatial sexual harassment incident data from [Safecity](h
 
 This repository contains the following information:
 
-1.  \[Safecity.Rproj\] ([https://github.com/SasaTang/SafeCityIndia/blob/master/Safecity.Rproj)\\par](https://github.com/SasaTang/SafeCityIndia/blob/master/Safecity.Rproj)\par)
+1.  [Safecity.Rproj](https://github.com/SasaTang/SafeCityIndia/blob/master/Safecity.Rproj)
 
     This is an R Project file that contains the R Markdown for the paper and all the below code.
 
-2.  \[MapClean.R\] ([https://github.com/SasaTang/SafeCityIndia/blob/master/mapClean.R)\\par](https://github.com/SasaTang/SafeCityIndia/blob/master/mapClean.R)\par)
+2.  [MapClean.R](https://github.com/SasaTang/SafeCityIndia/blob/master/mapClean.R)
 
     This is the R code for the creation of the maps in the final paper.
 
-3.  \[Datacleanup.R\] ([https://github.com/SasaTang/SafeCityIndia/blob/master/datacleanup.R)\\par](https://github.com/SasaTang/SafeCityIndia/blob/master/datacleanup.R)\par)
+3.  [Datacleanup.R](https://github.com/SasaTang/SafeCityIndia/blob/master/datacleanup.R)
 
     This is the code to clean up the data, transforming the original csv into useable data for this paper. For the original csv, please contact [Safecity](http://safecity.in/contact-us/).
 
@@ -30,10 +30,12 @@ This repository contains the following information:
 
     This is the final paper of this project.
 
-8.  [delhi\_highway.shp](https://github.com/SasaTang/SafeCityIndia/blob/master/delhi_highway.shp)
+8.  [FinalPaper.Rmd](https://github.com/SasaTang/SafeCityIndia/blob/master/FinalPaper.Rmd) This is the R Markdown for the final paper.
+
+9.  [delhi\_highway.shp](https://github.com/SasaTang/SafeCityIndia/blob/master/delhi_highway.shp)
 
     This is the shapefile for the roads for New Delhi
 
-9.  [IND\_admn2.shp](https://github.com/SasaTang/SafeCityIndia/blob/master/IND_adm2.shp)
+10. [IND\_admn2.shp](https://github.com/SasaTang/SafeCityIndia/blob/master/IND_adm2.shp)
 
     This is the shapefile for the districts in India
