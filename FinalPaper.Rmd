@@ -417,7 +417,15 @@ In order to explore how different types of sexual harassment interact with each
 other, and to answer the questions of the role of logic of appropriateness among
 different spaces, I will conduct a spatial time series regression analysis. First,
 I will create quadrants to overlay on top of the areas, and then join the incidents
-into the polygon quadrants to get a count data for each quadrant. 
+into the polygon quadrants to get a count data for each quadrant. The units of my
+analysis are each quadrant, with a count data for the different types of incidents
+within each quadrant. My model is the following:\par
+$${DV_t}= \beta_0 +\beta_1X_{t-1} +\beta_2DV_{t-1} +\mu_{i} $$
+Where ${DV_t}$ is one type of harassment, $X_{t-1}$ is another type of harassment 
+at a time before $t$, and ${DV_{t-1}}$ is the dependent variable at a prior time.\par
+I will run this equation with a few different iterations to see if there is a correlation
+among the different types of harassment. 
+
 
 # Discussion
 While these maps do demonstrate that there exists some sort of spatial relation
